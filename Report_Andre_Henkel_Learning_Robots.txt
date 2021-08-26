@@ -1,0 +1,23 @@
+Title: Reproduction study on Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks in Reinforcement Learning
+
+
+Current status: Completed the architecture and the setup except the Agent environment.
+
+Architecture modules: Controller, Agent, Model, Sampler
+
+Next steps: Implement the environment and start gathering "Agent experience" to train the network.
+
+
+Task: I will reproduce the 2D navigation agent mentioned in the MAML paper. The task is navigating the agent from point A to point B. The observation is only the current position of the agent, the actions correspond to velocity commands. And the reward is the negative squared distance to the goal position.
+
+The tasks for the meta learning will differ in the position of the goal destination for training and testing.
+
+
+The paper also mentioned comparable approaches, which I will reproduce if there's enough time at the end.
+
+
+Libraries: 	-Anaconda: 4.8.0
+		-Python: 3.7
+		-cudatoolkit: 10.2
+		-pytorch: 1.5
+
